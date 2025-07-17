@@ -141,8 +141,8 @@ Edit
 ```
 ## 📸 Sample Output
 After deploying the app successfully, the browser displays:
-Hello, Sean!
-This is my webapp working.
+- Hello, Sean!
+- This is my webapp working.
 
 ## 💡 Reflection
 - This project took me approximately 1 hour.
@@ -150,8 +150,8 @@ This is my webapp working.
 - The most rewarding moment was seeing everything work end-to-end inside a cloud-based server environment.
 
 ## 📚 Next Steps
-🔧 Continue building more DevOps projects to complete a full CI/CD pipeline!
-🧠 Learn how to deploy this app with Jenkins, GitHub Actions, or Docker in upcoming projects.
+- 🔧 Continue building more DevOps projects to complete a full CI/CD pipeline!
+- 🧠 Learn how to deploy this app with Jenkins, GitHub Actions, or Docker in upcoming projects.
 
 ## 🔗 Resources
 - AWS EC2 Docs
