@@ -1,5 +1,3 @@
-# Set-Up-a-Web-App-in-the-Cloud-AWS-VS-Code-
-This project sets the foundation for a CI/CD pipeline by deploying a basic Java web application in the cloud using AWS EC2, SSH, and Maven—all through a remote development setup via Visual Studio Code (VS Code).
 # ☁️ Set Up a Web App in the Cloud (AWS + VS Code)
 
 This project sets the foundation for a CI/CD pipeline by deploying a basic Java web application in the cloud using AWS EC2, SSH, and Maven—all through a remote development setup via Visual Studio Code (VS Code).
@@ -72,32 +70,6 @@ mvn archetype:generate
 </html>
 
 cd ~/Desktop/DevOps
-
-💡 Reflection
-This project took me approximately 1 hour.
-The most challenging part was setting up Maven and connecting EC2 to VS Code.
-The most rewarding moment was seeing everything work end-to-end inside a cloud-based server environment.
-
-📚 Next Steps
-🔧 Continue building more DevOps projects to complete a full CI/CD pipeline!
-🧠 Learn how to deploy this app with Jenkins, GitHub Actions, or Docker in upcoming projects.
-
-🔗 Resources
-AWS EC2 Docs
-
-Maven Documentation
-
-Remote - SSH for VS Code
-
-👤 Author
-Sean Carlo G. Flores
-NextWork Student @ nextwork.org
-
-
----
-
-Let me know if you’d like a downloadable `README.md` file or if you want to add images (screenshots, diagrams), GitHub badges, or a deployment link.
-
 
 # Set permissions for the private key
 chmod 400 nextwork-keypair.pem
