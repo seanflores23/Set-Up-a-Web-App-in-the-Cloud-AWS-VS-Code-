@@ -154,10 +154,10 @@ The most rewarding moment was seeing everything work end-to-end inside a cloud-b
 🧠 Learn how to deploy this app with Jenkins, GitHub Actions, or Docker in upcoming projects.
 
 ## 🔗 Resources
-AWS EC2 Docs
-Maven Documentation
-Remote - SSH for VS Code
+-AWS EC2 Docs
+-Maven Documentation
+-Remote - SSH for VS Code
 
 ## 👤 Author
-Sean Carlo G. Flores
+**Sean Carlo G. Flores**
 NextWork Student @ nextwork.org
