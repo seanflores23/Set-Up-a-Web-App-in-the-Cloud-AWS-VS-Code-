@@ -139,25 +139,25 @@ Edit
   </body>
 </html>
 ```
-##📸 Sample Output
+## 📸 Sample Output
 After deploying the app successfully, the browser displays:
 Hello, Sean!
 This is my webapp working.
 
-##💡 Reflection
+## 💡 Reflection
 This project took me approximately 1 hour.
 The most challenging part was setting up Maven and connecting EC2 to VS Code.
 The most rewarding moment was seeing everything work end-to-end inside a cloud-based server environment.
 
-##📚 Next Steps
+## 📚 Next Steps
 🔧 Continue building more DevOps projects to complete a full CI/CD pipeline!
 🧠 Learn how to deploy this app with Jenkins, GitHub Actions, or Docker in upcoming projects.
 
-##🔗 Resources
+## 🔗 Resources
 AWS EC2 Docs
 Maven Documentation
 Remote - SSH for VS Code
 
-##👤 Author
+## 👤 Author
 Sean Carlo G. Flores
 NextWork Student @ nextwork.org
