@@ -48,7 +48,56 @@ Before starting, ensure you have:
 ### 2. **Prepare Your Local Machine**
 ```bash
 # Navigate to key file location
+
+ssh -i nextwork-keypair.pem ec2-user@[EC2_IPV4_ADDRESS]
+
+# Update packages
+sudo yum update -y
+
+# Install Java
+sudo amazon-linux-extras enable corretto8
+sudo yum install java-1.8.0-amazon-corretto -y
+
+# Install Maven
+sudo yum install maven -y
+
+mvn archetype:generate
+# Follow the interactive prompts to select the webapp template and name your project
+
+<html>
+  <body>
+    <h1>Hello, Sean!</h1>
+    <p>This is my webapp working.</p>
+  </body>
+</html>
+
 cd ~/Desktop/DevOps
+
+💡 Reflection
+This project took me approximately 1 hour.
+The most challenging part was setting up Maven and connecting EC2 to VS Code.
+The most rewarding moment was seeing everything work end-to-end inside a cloud-based server environment.
+
+📚 Next Steps
+🔧 Continue building more DevOps projects to complete a full CI/CD pipeline!
+🧠 Learn how to deploy this app with Jenkins, GitHub Actions, or Docker in upcoming projects.
+
+🔗 Resources
+AWS EC2 Docs
+
+Maven Documentation
+
+Remote - SSH for VS Code
+
+👤 Author
+Sean Carlo G. Flores
+NextWork Student @ nextwork.org
+
+
+---
+
+Let me know if you’d like a downloadable `README.md` file or if you want to add images (screenshots, diagrams), GitHub badges, or a deployment link.
+
 
 # Set permissions for the private key
 chmod 400 nextwork-keypair.pem
